@@ -1,0 +1,101 @@
+/* main */
+
+@media only screen and (min-width: 768px)
+body {
+   font family:"Helvetica Neue", Helvetica, Arial, san-serif;
+   font-size: 14px;
+   line-height: 1.42857143;
+   color:  #333;
+   background-color: #fff;
+ }
+
+.img-responsive {
+  display: block;
+  max-width:100%;
+  height:auto;
+  vertical-align: middle;
+  border:0;
+}
+
+#person {
+  margin-top: -30px;
+}
+
+.hero{
+  margin-top: -200px;
+  background-image: linear-gradient(to bottom, rgba(255, 255,255,.5) 0,#fff 50%, #fff 100%);
+  border-top:4px solid #ff0500;
+  padding:15px 30px 160px;
+  position:absolute;
+  text-align: center;
+  height: 155px;
+  border-bottom:1px solid #f2f2f2
+  text color:black;
+}
+
+#country a{
+  color:red;
+  text-decoration: none;
+}
+
+#country a:hover {
+  text-decoration: underline;
+  color: #337ab7;
+}
+.highligiht a {
+  text-decoration: none;
+  color:black
+}
+
+.highligiht a:hover {
+  text-decoration: underline;
+  color: #337ab7;
+}
+
+.sub-box {
+  margin-top: 400px;
+  padding-top: 200px;
+  display:block;
+  max-width:100%;
+  height:auto;
+  vertical-align:middle;
+}
+
+
+.sub-box {
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+}
+
+.col-xs-12 {
+  margin-top:5px;
+  text-align: center;
+}
+
+#insight a {
+  color:#00B7FF;
+  text-decoration: none;
+}
+
+#insight a:hover {
+  color:#337ab7;
+  text-decoration: underline;
+}
+
+#blue-background {
+  background-color: #e6ffff;
+}
+.gravitational {
+  border-right: 1px solid #f2f2f2;
+  padding-bottom:130px;
+}
+
+.universities {
+  border:1px solid #cdf0ff;
+  padding-bottom:130px;
+  background-color:#e6ffff;
+}
+
+#sponsor {
+  background-size:contain;
+}

@@ -1,0 +1,46 @@
+.side-title {
+  font-size:19px;
+  letter-spacing: .25px;
+  color:#FF0500;
+  margin-bottom:10px;
+  position:relative;
+}
+
+.sidelists a {
+  font-size:18px;
+  font-weight:700;
+  line-height:1.42857143;
+  color:#181818;
+  background-color:#fff;
+  margin-bottom:40px;
+  bullet: red;
+}
+
+.bullet {
+  position:relative
+  padding:15px 15px 15px 15px;
+  top: 15px;
+  left:-25px;
+  color:#FF0500;
+  list-style-position: inside;
+  list-style-type: square;
+  margin-bottom: 40px;
+  margin-top:20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+/* to set bullet style */
+
+button {
+  background-color:#e5e5e5;
+  color:#757575;
+  font-size:16px;
+  line-height:50px;
+  display:block;
+  text-align: center;
+  width:100%;
+  cursor: pointer
+  border-color:rgb(216,216,216) rgb(209,209,209) rgb(186,186,186)
+  border-style:solid;
+  border-width:1px;
+  padding:1px 7px 2px;
+}
